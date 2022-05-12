@@ -19,7 +19,6 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 The data comes from the past Kaggle competition “Challenges in Representation Learning: Facial Expression Recognition Challenge”: we have defined the image size to 48 so each image will be reduced to a size of 48x48.The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. Each image corresponds to a facial expression in one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The dataset contains approximately 36K images.
 
 Dataset link - www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
-![dataset](https://user-images.githubusercontent.com/102009481/168100322-2035a0c8-60c9-445c-8f30-9b7f702c73d9.png)
 
 # Dependencies
 
@@ -44,13 +43,14 @@ training accuracy and validation accuracy is very low so our pretrained model re
 We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
 generalize, we score an astounding 63.17% on the test set.
 
-![acc](https://user-images.githubusercontent.com/102009481/168101775-df83c467-c3d7-4adc-9969-e6aa0d61562f.png)
-
-# confusion matrix
-![confusion](https://user-images.githubusercontent.com/102009481/168102230-39d8e5aa-5360-431b-a45a-73a534d614f2.png)
-
 # Deployment of streamlit webApp in Heroku and Streamlit
 
 
 We have created front-end using streamlit-webrtc which helped to deal with real time video streams.Image captured from the webcam is sent to VideoTransformer function to detect the emotion .Then this model was deployed on heroku platform
-link 
+
+Deployment Link for Heroku - https://faceemotiondetection-wasim.herokuapp.com/
+
+Deployment Link for Streamlit Share - https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py
+
+Repo link of Face emotion recognition using deep learning - https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git
+ 
