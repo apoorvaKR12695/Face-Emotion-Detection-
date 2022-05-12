@@ -44,6 +44,11 @@ training accuracy and validation accuracy is very low so our pretrained model re
 We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
 generalize, we score an astounding 63.17% on the test set.
 
+![acc](https://user-images.githubusercontent.com/102009481/168101775-df83c467-c3d7-4adc-9969-e6aa0d61562f.png)
+
+# confusion matrix
+![confusion](https://user-images.githubusercontent.com/102009481/168102230-39d8e5aa-5360-431b-a45a-73a534d614f2.png)
+
 # Deployment of streamlit webApp in Heroku and Streamlit
 
 
