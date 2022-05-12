@@ -38,8 +38,13 @@ training accuracy and validation accuracy is very low so our pretrained model re
 
 # 2.CNN
 
-Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
+         Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
 
 We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
 generalize, we score an astounding 63.17% on the test set.
 
+# Deployment of streamlit webApp in Heroku and Streamlit
+
+
+We have created front-end using streamlit-webrtc which helped to deal with real time video streams.Image captured from the webcam is sent to VideoTransformer function to detect the emotion .Then this model was deployed on heroku platform
+link 
