@@ -42,6 +42,8 @@ training accuracy and validation accuracy is very low so our pretrained model re
 
          Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
 
+ ![acc](https://user-images.githubusercontent.com/102009481/168103687-2cf25ccb-948c-4804-80c0-e8d4baadc50a.png)
+ 
 We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
 generalize, we score an astounding 63.17% on the test set.
 
