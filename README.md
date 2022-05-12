@@ -20,6 +20,8 @@ The data comes from the past Kaggle competition “Challenges in Representation 
 
 Dataset link - www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
 
+![dataset](https://user-images.githubusercontent.com/102009481/168103276-f8f0f27b-c189-408e-b8dd-333030d54575.png)
+
 # Dependencies
 
 Python 3
