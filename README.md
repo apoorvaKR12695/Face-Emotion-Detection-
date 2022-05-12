@@ -62,17 +62,17 @@ Deployment Link for Streamlit Share - https://share.streamlit.io/wasimkhan33/fac
 
 Repo link of Face emotion recognition using deep learning - https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git
  
-#Run WebApp Locally
+# Run WebApp Locally
 
 Clone the project
 
-  git clone https://github.com/apoorvaKR12695/face-emotion-detection-
+        git clone https://github.com/apoorvaKR12695/face-emotion-detection-
 
   
 Install dependencies
 
-  pip install -r requirement.txt
+          pip install -r requirement.txt
   
 Start local webcam
 
-  streamlit run app.py
+           streamlit run app.py
