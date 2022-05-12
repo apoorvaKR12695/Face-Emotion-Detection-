@@ -19,3 +19,27 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 The data comes from the past Kaggle competition “Challenges in Representation Learning: Facial Expression Recognition Challenge”: we have defined the image size to 48 so each image will be reduced to a size of 48x48.The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. Each image corresponds to a facial expression in one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The dataset contains approximately 36K images.
 
 Dataset link - www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+
+# Dependencies
+
+Python 3
+Tensorflow
+Streamlit
+Streamlit-Webrtc
+OpenCV
+
+# Model Creation
+
+# 1. ResNet-50
+
+             ResNet-50 is a convolutional neural network that is 50 layers deep. You can load a pre-trained version of the network trained on more than a million images from the ImageNet database 
+
+training accuracy and validation accuracy is very low so our pretrained model resnet50 is not performing well
+
+# 2.CNN
+
+Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
+
+We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
+generalize, we score an astounding 63.17% on the test set.
+
