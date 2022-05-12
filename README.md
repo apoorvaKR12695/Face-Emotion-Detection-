@@ -19,6 +19,7 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 The data comes from the past Kaggle competition “Challenges in Representation Learning: Facial Expression Recognition Challenge”: we have defined the image size to 48 so each image will be reduced to a size of 48x48.The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. Each image corresponds to a facial expression in one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The dataset contains approximately 36K images.
 
 Dataset link - www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+![dataset](https://user-images.githubusercontent.com/102009481/168100322-2035a0c8-60c9-445c-8f30-9b7f702c73d9.png)
 
 # Dependencies
 
