@@ -56,11 +56,10 @@ generalize, we score an astounding 63.17% on the test set.
 
 We have created front-end using streamlit-webrtc which helped to deal with real time video streams.Image captured from the webcam is sent to VideoTransformer function to detect the emotion .Then this model was deployed on heroku platform
 
-Deployment Link for Heroku - https://faceemotiondetection-wasim.herokuapp.com/
+Deployment Link for Heroku -Deployment Link for heroku :- https://faceemotiondetection-apoorva.herokuapp.com/
 
 Deployment Link for Streamlit Share - https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py
 
-Repo link of Face emotion recognition using deep learning - https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git
 
  ![Screenshot (5)](https://user-images.githubusercontent.com/102009481/168220751-47a61294-912b-4a91-8b89-559cf2a0ac52.png)
  
