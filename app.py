@@ -22,7 +22,7 @@ except ImportError:
 try:
     face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') # Face Detection
     classifier =load_model('FER_model.h5')  #Load model
-    emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']  # Emotion that will be predicted
+    emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']  # Emotion will be predicted
 except Exception:
     st.write("Error loading cascade classifiers")
     
