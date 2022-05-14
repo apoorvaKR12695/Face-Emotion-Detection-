@@ -58,7 +58,7 @@ We have created front-end using streamlit-webrtc which helped to deal with real 
 
 Deployment Link for Heroku -Deployment Link for heroku :- https://faceemotiondetection-apoorva.herokuapp.com/
 
-Deployment Link for Streamlit Share - https://share.streamlit.io/apoorvakr12695/face-emotion-detection-/main/app.py
+Deployment Link for Streamlit Share - https://share.streamlit.io/apoorvakr12695/face-emotion-recognition-/main/app.py
 
 
 
