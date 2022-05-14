@@ -48,7 +48,7 @@ training accuracy and validation accuracy is very low so our pretrained model re
  
 ![confusion](https://user-images.githubusercontent.com/102009481/168104085-260ff2ed-5448-4338-8d61-a5e7133fce64.png)
 
-We trained the neural network and we achieved the highest validation accuracy of 62.43%. After using test data to check how well our model 
+We trained the neural network and we achieved the highest training accuracy of 74.43%. After using test data to check how well our model 
 generalize, we score an astounding 63.17% on the test set.
 
 # Deployment of streamlit webApp in Heroku and Streamlit
@@ -56,7 +56,7 @@ generalize, we score an astounding 63.17% on the test set.
 
 We have created front-end using streamlit-webrtc which helped to deal with real time video streams.Image captured from the webcam is sent to VideoTransformer function to detect the emotion .Then this model was deployed on heroku platform
 
-Deployment Link for Heroku -Deployment Link for heroku :- https://faceemotiondetection-apoorva.herokuapp.com/
+Deployment Link for Heroku -Deployment Link for heroku :- https://face-recognit-apoorva.herokuapp.com/
 
 Deployment Link for Streamlit Share - https://share.streamlit.io/apoorvakr12695/face-emotion-recognition-/main/app.py
 
