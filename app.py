@@ -1,4 +1,4 @@
-# Importing required libraries, obviously
+# Importing required libraries
 import logging
 import logging.handlers
 import threading
