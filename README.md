@@ -72,7 +72,7 @@ Deployment Link for Streamlit Share - https://share.streamlit.io/apoorvakr12695/
 
 Clone the project
 
-        git clone https://github.com/apoorvaKR12695/face-emotion-detection-
+        git clone https://github.com/apoorvaKR12695/face-emotion-recognition-
 
   
 Install dependencies
