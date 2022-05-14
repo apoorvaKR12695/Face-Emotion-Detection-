@@ -1,4 +1,4 @@
-# face-emotion-detection-
+# Live Class Monitoring System [Face emotion Recognition].
 DL+ML project
 
 # Introduction
