@@ -15,7 +15,7 @@
 <p>This Project includes 2 executable files, 2 text files ,1 h5 file as well as 2 directories as follows:</p>
 <h4>Executable Files:</h4>
 <ul>
-  <li><b>spam_detector.py</b> - .</li>
+  
   <li><b>train.py</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
   <li><b>test.py</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
 </ul>
@@ -37,15 +37,12 @@
 
 <h2> :book: CNN </h2>
 
-<p> Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
-Abstractly, naive Bayes is a conditional probability model: given a problem instance to be classified, represented by a vector
-<img src="image/1.png" alt="Formula 1" style="max-width:100%;"></p>
+<p> Convolutional Neural Networks (CNNs) are a type of Neural Network that has excelled in a number of contests involving Computer Vision and Image Processing.Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
 
-<p>representing some n features (independent variables), it assigns to this instance probabilities
-<img src="image/2.png" alt="Formula 2" style="max-width:100%;"></p>
 
-<p>The problem with the above formulation is that if the number of features n is large or if a feature can take on a large number of values, then basing such a model on probability tables is infeasible. We therefore reformulate the model to make it more tractable. Using Bayes' theorem, the conditional probability can be decomposed as
-<img src="image/3.png" alt="Formula 3" style="max-width:100%;"></p>
+![1_CnNorCR4Zdq7pVchdsRGyw](https://user-images.githubusercontent.com/102009481/177744968-d0bb6264-acd9-429e-bc7e-56cd3464574c.png)
+
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
