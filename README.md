@@ -33,6 +33,15 @@
   <li><b>test directory</b> - Includes all emotions for the testing phase of the program.</li>
 </ul>
 
+<h4>Files required to deploy on Heroku:</h4>
+<ul>
+  <li><b>Haarcascade_frontalface_alt.xml</b> -used for image processing.</li>
+  <li><b>runtime.txt</b> - python environment.</li>
+  <li><b>procfile</b> - Procfile is a mechanism for declaring what commands are run by your application’s dynos on the Heroku platform..</li>
+  <li><b>setup.sh</b> - This file is necessary for Heroku to know which libraries it needs to run your application. .</li>
+  <li><b>requirements.txt</b> - this file contains all the neccesarry dependencies .</li>
+  
+</ul>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book: CNN </h2>
@@ -55,6 +64,9 @@
 
 <p><b>2) test.py</b></p>
 <p>Finally, the test.py file must be executed to evaluate the model performance on unseen data.
+
+
+
 
   Deployment Link for Heroku -Deployment Link for heroku :- https://face-recognit-apoorva.herokuapp.com/
 
