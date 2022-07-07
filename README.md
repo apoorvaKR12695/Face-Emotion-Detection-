@@ -1,7 +1,8 @@
 # Live Class Monitoring System [Face emotion Recognition].
 DL+ML project
 
-![Screenshot (24)](https://user-images.githubusercontent.com/102009481/177730413-20b65b39-9267-4e1d-97f2-28bcf88eb090.png)
+
+![1_kNmSTa-xG_Ed_xmHPWAzeQ](https://user-images.githubusercontent.com/102009481/177730708-9d7f518e-0553-47b0-8d77-7d3be8159d56.png)
 
 
 # Introduction
