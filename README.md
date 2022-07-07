@@ -1,6 +1,9 @@
 # Live Class Monitoring System [Face emotion Recognition].
 DL+ML project
 
+![Screenshot (24)](https://user-images.githubusercontent.com/102009481/177730413-20b65b39-9267-4e1d-97f2-28bcf88eb090.png)
+
+
 # Introduction
 
 Facial Emotion Recognition (FER) is the technology that analyses facial expressions from both static images and videos in order to reveal information on one's emotional state
