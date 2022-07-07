@@ -12,32 +12,32 @@
 <h2> :floppy_disk: Project Files Description</h2>
 
 
-<p>This Project includes 3 executable files, 3 text files as well as 2 directories as follows:</p>
+<p>This Project includes 2 executable files, 2 text files ,1 h5 file as well as 2 directories as follows:</p>
 <h4>Executable Files:</h4>
 <ul>
-  <li><b>spam_detector.py</b> - Includes all functions required for classification operations.</li>
-  <li><b>train.py</b> - Uses the functions defined in the spam_detector.py file and generates the model.txt file after execution.</li>
-  <li><b>test.py</b> - Uses the functions defined in the spam_detector.py file and, after execution, generates the result.txt as well as evaluation.txt files.</li>
+  <li><b>spam_detector.py</b> - .</li>
+  <li><b>train.py</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
+  <li><b>test.py</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
 </ul>
 
 <h4>Output Files:</h4>
 <ul>
-  <li><b>model.txt</b> - Contains information about the vocabularies of the train set, such as the frequency and conditional probability of each word in Spam and Ham classes.</li>
-  <li><b>result.txt</b> - Contains information about the classified emails of the test set.</li>
-  <li><b>evaluation.txt</b> - Contains evaluation results table as well as Confusion Matrix of Spam and Ham classes.</li>
+  <li><b>model.h5</b> - Model contains information about the emotions of the train set, such as the Happy,Sad,Disgust,Calm and so on.</li>
+  <li><b>confusion_matrix.txt</b> - Contains information about the classified emotions of the test set.</li>
+  <li><b>pics</b> - which contains the output of detecting emotions through live webcam.</li>
 </ul>
 
 <h4>Source Directories:</h4>
 <ul>
-  <li><b>train directory</b> - Includes all emails for the training phase of the program.</li>
-  <li><b>test directory</b> - Includes all emails for the testing phase of the program.</li>
+  <li><b>train directory</b> - Includes all emotions  for the training phase of the program.</li>
+  <li><b>test directory</b> - Includes all emotions for the testing phase of the program.</li>
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Naive Bayes</h2>
+<h2> :book: CNN </h2>
 
-<p>In machine learning, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
+<p> Designing the CNN model for, emotion detection .creating blocks using Conv2D layer,Batch-Normalization, Max-Pooling2D, Dropout, Flatten, and then stacking them together and at the end-use Dense Layer for output
 Abstractly, naive Bayes is a conditional probability model: given a problem instance to be classified, represented by a vector
 <img src="image/1.png" alt="Formula 1" style="max-width:100%;"></p>
 
