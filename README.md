@@ -42,6 +42,7 @@
   <li><b>requirements.txt</b> - this file contains all the neccesarry dependencies .</li>
   
 </ul>
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :book: CNN </h2>
