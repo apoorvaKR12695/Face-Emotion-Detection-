@@ -48,12 +48,12 @@
 
 <h2> :clipboard: Execution Instruction</h2>
 <p>The order of execution of the program files is as follows:</p>
-<p><b>1) spam_detector.py</b></p>
 
-<p><b>2) train.py</b></p>
+
+<p><b>1) train.py</b></p>
 <p>Then, the train.py file must be executed, to define all the functions and variables required for classification operations which leads to the production of the model.h5 file. 
 
-<p><b>3) test.py</b></p>
+<p><b>2) test.py</b></p>
 <p>Finally, the test.py file must be executed to evaluate the model performance on unseen data.
 
   Deployment Link for Heroku -Deployment Link for heroku :- https://face-recognit-apoorva.herokuapp.com/
