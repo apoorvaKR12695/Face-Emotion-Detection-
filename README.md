@@ -7,7 +7,7 @@
 
 ![1_kNmSTa-xG_Ed_xmHPWAzeQ](https://user-images.githubusercontent.com/102009481/177730708-9d7f518e-0553-47b0-8d77-7d3be8159d56.png)
 
-<p>Built an  face emotion detection app that detects the sentiment of the online classroom using live video from the webcam and real-time aggregated feedback to the instructors about the class using CNN model and deployed on Heroku platform.</p>
+<p>Objective is to build a deep learning model which detects the real time emotions of students through a webcam and gives the real time aggregated feedback to the instructor about the class  so that instructor can  understand if the students are able to grasp the topic according to students expression or emotions using CNN model and deployed on Heroku platform.</p>
 
 <h2> :floppy_disk: Project Files Description</h2>
 
