@@ -12,7 +12,7 @@
 <h2> :floppy_disk: Project Files Description</h2>
 
 
-<p>This Project includes 2 executable files, 2 text files ,1 h5 file as well as 2 directories as follows:</p>
+<p>This Project includes 2 executable files, 2 text files and 1 h5 file  as follows:</p>
 <h4>Executable Files:</h4>
 <ul>
   
@@ -25,12 +25,6 @@
   <li><b>model.h5</b> - Model contains information about the emotions of the train set, such as the Happy,Sad,Disgust,Calm and so on.</li>
   <li><b>confusion_matrix.txt</b> - Contains information about the classified emotions of the test set.</li>
   <li><b>pics</b> - which contains the output of detecting emotions through live webcam.</li>
-</ul>
-
-<h4>Source Directories:</h4>
-<ul>
-  <li><b>train directory</b> - Includes all emotions  for the training phase of the program.</li>
-  <li><b>test directory</b> - Includes all emotions for the testing phase of the program.</li>
 </ul>
 
 <h4>Files required to deploy on Heroku:</h4>
